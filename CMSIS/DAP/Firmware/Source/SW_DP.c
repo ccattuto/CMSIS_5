@@ -68,6 +68,7 @@
   PIN_SWCLK_CLR();                      \
   __NOP();                              \
   __NOP();                              \
+  __NOP();                              \
   bit = PIN_SWDIO_IN();                 \
   PIN_SWCLK_SET();                      \
   __NOP();                              \
